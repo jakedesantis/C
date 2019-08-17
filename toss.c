@@ -18,9 +18,18 @@ int main(void)
 	p = &v;
 	printf("v is %d\n", v);
 	printf("*p is %d\n", *p);
-	/*printf("&v is %d\n", &v);*/
-	/*int toss;*/
-	/*scanf("%d\n",&toss );*/
+
+	int n = 50, *ptr;
+	ptr = &n;
+	printf("n is %d.\n", n);
+	printf("the address of n is %x.\n", &n);
+	printf("ptr is %x\n",ptr);
+	printf("the thing ptr points to is %d.\n", *ptr);
+
+
+
+
+
 	sleep(5);
 	return(0);
 	}
